@@ -1,5 +1,5 @@
 public class lengthOfLastWord {
-  public static int lengthOfLastWord(String s) {
+  public int lengthOfLastWord(String s) {
     s = s.trim();
     if(s.equals(""))
       return 0;
@@ -25,11 +25,5 @@ public class lengthOfLastWord {
     }
 
     return s.substring(begin, i).length();
-  }
-
-  public static void main (String [] args){
-    String s = "l";
-    System.out.println(s);
-    System.out.println(lengthOfLastWord(s));
   }
 }
